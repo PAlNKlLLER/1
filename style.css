@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Gilroy'; /* Название шрифта */
+    src: url(Gilroy-Regular.ttf); /* Адрес файла со шрифтом */
+}
+*{
+    font-family: 'Gilroy';
+}
+.container{
+    max-width: 940px;
+    width: 100%;
+    margin: auto;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 33px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #828282;
+}
+.links a{
+    color: #828282;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-decoration: none;
+}
+.promo-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 105px;
+}
+.promo-block h1{
+    width: 124px;
+    color: #070707;
+    font-size: 47.339px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+.promo-block p {
+    width: 145px;
+    color: #070707;
+    font-family: 'Abril Fatface', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.promo-block span {
+    margin: 0;
+    padding: 0;
+    color: #828282;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    transform: rotate(-90deg);
+}
+
+.about{
+    background: #F6F6F6;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.about-block{
+    text-align: center;
+}
+.about-block h2{
+    color:  #070707;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+.about-block p{
+    width: 485px;
+    margin: auto;
+    padding-bottom: 35px;
+    color: #070707;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Abril Fatface', serif;
+}
+
+.skills-block{
+    padding-top: 90px;
+    padding-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills-block h2 {
+    color:  #070707;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+.skills-block p {
+    padding-top: 70px;
+    padding-bottom: 84px;
+    color: #070707;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card h4 {
+    width: 80px;
+    height: 28px;
+    color: #828282;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.portfolio {
+    padding-top: 113px;
+    padding-bottom: 96px;
+    background: #F6F6F6;
+}
+.portfolio-block h2 {
+    padding-bottom: 47px;
+    color:  #070707;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+.portfolio-block p{
+    padding-top: 45px;
+    padding-bottom: 100px;
+    color: #070707;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.contact-block{
+    padding-top: 115px;
+    padding-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-block h2 {
+    color:  #070707;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+.contact-block p {
+    width: 275px;
+    color: #070707;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+.contact-block button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 25px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+
+}
+.contact-block span {
+    width: 243px;    
+    color: #828282;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item {
+    padding-top: 80px;
+    padding-bottom: 45px;
+    width: 343px;
+    display: flex;
+    justify-content: space-between;
+}
